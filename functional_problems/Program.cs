@@ -11,9 +11,6 @@ namespace division
             Console.WriteLine("Enter divisor:");
             int divisor = Convert.ToInt32(Console.ReadLine());
 
-
-            
-
             float quotient = dividend / divisor;
             float remainder = dividend % divisor;
 
