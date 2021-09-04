@@ -14,13 +14,13 @@ namespace myApp
             int c = Convert.ToInt32(Console.ReadLine());
             
             if ((a > b) && (a > c))
-                Console.WriteLine("a = {0} is the biggest number", a);
+                Console.WriteLine("a = {0} is the largest number", a);
 
             else if (b > c)
-                Console.WriteLine("b = {0} is the biggest number", b);
+                Console.WriteLine("b = {0} is the largest number", b);
 
             else
-                Console.WriteLine("c = {0} is the biggest number", c);
+                Console.WriteLine("c = {0} is the largest number", c);
         }
     }
 }
